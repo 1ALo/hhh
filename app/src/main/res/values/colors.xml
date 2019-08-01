@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FEEAE6</color>
+    <color name="colorPrimaryDark">#FEDBD0</color>
+    <color name="colorAccent">#442C2E</color>
+    <color name="textFieldStroke">#024F66</color>
+    <color name="clickableTextView">#3F51B5</color>
+    <color name="subs">#6E6E70</color>
+   <color name="myPrimary">#FEEAE6</color>
+</resources>

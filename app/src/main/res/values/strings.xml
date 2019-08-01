@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">EasyDeal</string>
+    <string name="buyer_button">I\'m a Shopper</string>
+    <string name="shop_owner_button">I\'m a Shop Owner</string>
+    <string name="sign_up_username">Username</string>
+    <string name="sign_up_password">Password</string>
+    <string name="already_have_an_account">Already have an account ?</string>
+    <string name="signin_text_view">Signin</string>
+    <string name="signup_text_view">SignUp</string>
+    <string name="we_know_what_you_want">We Know What You Want</string>
+
+    <string name="sign_up_email">Email</string>
+    <string name="choose_your_browsing_option">Choose your browsing option.</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="forgot_password">Uhh,Forgot it</string>
+    <string name="signin">Signin</string>
+</resources>

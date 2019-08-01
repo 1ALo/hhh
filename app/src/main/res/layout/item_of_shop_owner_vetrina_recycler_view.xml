@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dp"
+    android:layout_marginBottom="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginTop="4dp"
+    android:background="#fff"
+    app:cardElevation="10dp"
+    app:shapeAppearanceOverlay="@style/MyRecyclerViewItemCardViewShape">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/recycler_view_product_image"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/grand"
+
+            />
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/code_card"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/recycler_view_product_image"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="65dp"
+            app:cardBackgroundColor="@color/colorPrimary"
+            app:shapeAppearanceOverlay="@style/MyProductDescriptionCardViewShape"
+
+            >
+
+            <TextView
+                android:id="@+id/recycler_view_product_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                android:paddingLeft="8dp"
+                android:text="My Portrait"
+                android:textColor="@color/colorAccent"
+                android:textSize="10sp"
+
+                />
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/price_card_view"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/code_card"
+            android:layout_alignBottom="@id/recycler_view_product_image"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="32dp"
+            app:cardBackgroundColor="@color/colorPrimary"
+            app:shapeAppearanceOverlay="@style/MyProductDescriptionCardViewShape">
+
+            <TextView
+                android:id="@+id/recycler_view_product_price"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:text="99$"
+                android:textColor="@color/colorAccent"
+                android:textSize="10sp" />
+        </com.google.android.material.card.MaterialCardView>
+    </RelativeLayout>
+
+
+</com.google.android.material.card.MaterialCardView>

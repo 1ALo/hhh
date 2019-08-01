@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShopOwnerSignIn"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/myPrimary"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_back"
+        android:textSize="40sp"
+        android:fontFamily="@font/aquarium"
+        android:textColor="@color/colorAccent"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="15"
+        android:shadowColor="@color/colorPrimaryDark"
+
+        />
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/sign_up_username"
+        app:endIconMode="clear_text"
+        android:elevation="10dp"
+        app:boxStrokeColor="@color/textFieldStroke"
+        app:hintTextColor="@color/colorAccent"
+
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        tools:targetApi="lollipop">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/sign_in_username_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/sign_up_password"
+        app:endIconMode="password_toggle"
+        app:boxStrokeColor="@color/textFieldStroke"
+        app:hintTextColor="@color/colorAccent"
+        android:elevation="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        tools:targetApi="lollipop">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/sign_in_password_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/sign_up_button"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorPrimaryDark"
+        android:elevation="10dp"
+        android:text="@string/signin"
+        android:fontFamily="@font/aquarium"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        app:cornerRadius="10dp"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/material_text_button"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:text="@string/forgot_password"
+        android:background="#00000000"
+        app:strokeColor="@color/colorAccent"
+        android:textColor="@color/colorAccent"
+        app:rippleColor="@color/colorPrimaryDark"
+        android:fontFamily="@font/aquarium"
+        android:textSize="20sp"
+        />
+
+</LinearLayout>
+
